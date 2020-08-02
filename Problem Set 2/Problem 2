@@ -50,9 +50,8 @@ Test Cases:
 	      -------------------
 	      Lowest Payment: 360
     
-# Paste your code into this box   
-    
-    monthlyPaymentRate = 0
+# Paste your code into this box
+monthlyPaymentRate = 0
 init_balance = balance
 monthlyInterestRate = annualInterestRate/12
 
@@ -65,3 +64,5 @@ while balance > 0:
     elif balance <= 0:
         break
 print('Lowest Payment:', monthlyPaymentRate)
+
+
