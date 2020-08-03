@@ -1,0 +1,44 @@
+Write a Python function that returns True if aString is a palindrome (reads the same forwards or reversed) and False otherwise. Do not use Python's built-in reverse function or aString[::-1] to reverse strings.
+
+This function takes in a string and returns a boolean.
+
+def isPalindrome(aString):
+    '''
+    aString: a string
+    '''
+    # Your code here
+    
+Code Editor
+# Paste your function here
+def isPalindrome(string):
+    '''
+    aString: a string
+    '''
+    # Your code here
+
+    left_pos = 0
+    right_pos = len(string) - 1
+    
+    while right_pos >= left_pos:
+        if not string[left_pos] == string[right_pos]:
+            return False
+        left_pos += 1
+        right_pos -= 1
+    return True 
+1
+# Paste your function here
+def isPalindrome(string):
+    '''
+    aString: a string
+    '''
+    # Your code here
+
+    left_pos = 0
+    right_pos = len(string) - 1
+    
+    while right_pos >= left_pos:
+        if not string[left_pos] == string[right_pos]:
+            return False
+        left_pos += 1
+        right_pos -= 1
+    return True 
